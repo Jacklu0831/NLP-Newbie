@@ -6,7 +6,7 @@
 
 **Math for Topic Modelling** - GLoVe, Word2vec, Latent Dirichlet allocation (LDA), Dirichlet distributions (alpha-beta), matrix factorization
 
-**RNN Networks** - simple RNN network, Sequence to Sequence, LSTM, Additive Attention -> Multiplicative Attention -> Self-Attention
+**RNN Networks** - simple RNN, Bidirectional RNN, Sequence to Sequence, LSTM, Additive Attention -> Multiplicative Attention -> Self-Attention
 
 **Verbal Communication** - Voice User Interface
 
