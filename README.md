@@ -8,7 +8,9 @@
 
 **RNN Networks** - simple RNN, Bidirectional RNN, Sequence to Sequence, LSTM, Additive Attention -> Multiplicative Attention -> Self-Attention
 
-**Verbal Communication** - Voice User Interface
+**Traditional Automatic Speech Recognition (ASR)** - Voice User Interface, fast fourier transform (library implementation), Mel Frequency Cepstral Coefficients MFCCs), phonetics, HMM implementation, N-grams Maximum Likelihood Estimation (MLE)
+
+**New Paradigm for ASR** - Deep learning, CNN for audio feature extraction, RNN for time series data, CTC (Connectionist Temporal Classification) for audio-word sequencing
 
 # Resources
 
