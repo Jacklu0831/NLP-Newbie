@@ -4,9 +4,13 @@
 
 Built a deep neural network that functions as part of an end-to-end machine translation pipeline. The final model takes in English sentences and translates them into French. Although each model only takes <10 minutes to finish training, I did experiment with 5 models. Therefore, a GPU-enabled computing environment would be favored. This project was particularly enjoyable because I got to see the difference each breakthrough in data-based-approach for NLP made on the model performances. 
 
+---
+
 ## Data
 
 The dataset I used is a small subset of [WMT](https://www.statmt.org/wmt10/translation-task.html) (workshop on statistical machine translation) included in this directory. It has 1823250 english words (227 unique) and 1961295 french words (355 unique). As usual, I tokenized the texts, obtained the sequences, and padded them (post). 
+
+---
 
 ## Models
 
@@ -49,9 +53,11 @@ All performances measured after 10 epochs of training (validation set). Paramete
   </tr>
 </table>
 
+---
+
 ## Performance Comparison
 
-<p><img src="images/chart.png"></p>
+<p align="center"><img src="images/chart.png" height="70%" width="70%"></p>
 
 Word embedding alone boosted a simple GRU RNN's accuracy by ~36%. Then the addition of bidirectional and encoder-decoder model components further increased the accuracy by ~12%.
 
