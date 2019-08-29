@@ -1,26 +1,25 @@
 # Natural Language Processing
 
-# Main Topics Learned
+With some old memory about NLP, I enrolled in [Udacity NLP nanodegree](https://www.udacity.com/course/natural-language-processing-nanodegree--nd892) free trial and hacked together a few RNN models to pick up some concepts again. The materials only covered up to self-attention (not up-to-date) but let me remember how to English again. 
 
-**Language Structure** - Part of speech tagging, hidden Markov model (HMM), Bayes theorem, Bag of Words
+# Review Projects
+
+- Sentiment Analysis in 30 lines ([details](1_Movie_Review_Analysis))
+- Caesar Cipher Decryption ([details](2_Caesar_Cipher))
+- English to French machine translation ([details](3_English_to_French))
+
+# Main Topics
+
+**Language Structure** - part of speech tagging, hidden Markov model (HMM), Bayes theorem, Bag of Words
 
 **Math for Topic Modelling** - GLoVe, Word2vec, Latent Dirichlet allocation (LDA), Dirichlet distributions (alpha-beta), matrix factorization
 
 **RNN Networks** - simple RNN, Bidirectional RNN, Sequence to Sequence, LSTM, Additive Attention -> Multiplicative Attention -> Self-Attention
 
-# Resources
+**Traditional Automatic Speech Recognition (ASR)** - voice user interface, fast fourier transform (library implementation), Mel Frequency Cepstral Coefficients MFCCs), phonetics, HMM implementation, N-grams Maximum Likelihood Estimation (MLE)
 
-### Textbook
+**New Paradigm for ASR** - Deep learning, CNN for audio feature extraction, RNN for time series data, CTC (Connectionist Temporal Classification) for audio-word sequencing
 
+# Acknowledgement
 
-
-### Paper
-
-- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
-- [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025)
-- [Attention is all You Need](https://arxiv.org/abs/1706.03762)
-
-
-### Structured
-
-The Udacity Nanodegree program provided great assistance. I really like their approach of starting from the high level understanding of say Attention, then going a stage lower video by video. Most importantly, it provided me with pretty good GPU (Tesla K80).
+The Udacity Nanodegree program provided great assistance. It provided me with decent GPU (Tesla K80).
