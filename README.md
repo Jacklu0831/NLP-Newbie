@@ -1,6 +1,6 @@
 # Natural Language Processing
 
-With some old memory about NLP, I enrolled in [Udacity NLP nanodegree](https://www.udacity.com/course/natural-language-processing-nanodegree--nd892) free trial and hacked together a few RNN models to pick up some concepts again. The materials only covered up to self-attention (not up-to-date) but let me remember how to English again. 
+Projects roughly from [Udacity NLP nanodegree](https://www.udacity.com/course/natural-language-processing-nanodegree--nd892). Below them are some topics I've covered so far.
 
 # Review Projects
 
@@ -19,7 +19,3 @@ With some old memory about NLP, I enrolled in [Udacity NLP nanodegree](https://w
 **Traditional Automatic Speech Recognition (ASR)** - voice user interface, fast fourier transform (library implementation), Mel Frequency Cepstral Coefficients MFCCs), phonetics, HMM implementation, N-grams Maximum Likelihood Estimation (MLE)
 
 **New Paradigm for ASR** - Deep learning, CNN for audio feature extraction, RNN for time series data, CTC (Connectionist Temporal Classification) for audio-word sequencing
-
-# Acknowledgement
-
-The Udacity Nanodegree program provided great assistance. It provided me with decent GPU (Tesla K80).
